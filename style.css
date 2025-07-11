@@ -16,6 +16,8 @@ body {
     align-items: center;
     margin: 20px;
     padding-block: 40px;
+    height: 100vh;
+    display: grid;
 }
 
 .container {
