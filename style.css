@@ -14,12 +14,9 @@ body {
     font-family: "Karla", sans-serif;
     justify-items: center;
     align-items: center;
-    margin-inline: 20px;
-    margin-block: 80px;
-    padding-block: 80px;
-    padding-top: 40px;
     height: 100vh;
     display: grid;
+    margin: 10px;
 }
 
 .container {
@@ -37,9 +34,10 @@ body {
 
 }
 
-@media screen and (max-width: 600px) {
+@media  (max-width: 600px)  {
     body {
         padding-top: 100px;
+        height: 100%;
     }
     .container {
         min-width: auto;
